@@ -1,0 +1,6884 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3e6dd7b0-ca71-4721-8088-8e6ce70ebe88")
+	(paper "USLetter")
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Graphic:SYM_Hot_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SYM_Hot_Small"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Hot surface warning symbol, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "symbol logo hot surface warning heat"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SYM_Hot_Small_0_1"
+				(arc
+					(start -0.762 -1.016)
+					(mid -0.635 -0.635)
+					(end -0.762 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.762 0.508)
+					(mid -0.889 0.127)
+					(end -0.762 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.127 -0.635)
+					(end 0 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.397) (xy -1.27 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.905) (xy 2.54 -1.905) (xy 0 2.54) (xy -2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.127 0.127)
+					(end 0 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 -1.016)
+					(mid 0.889 -0.635)
+					(end 0.762 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.762 0.508)
+					(mid 0.635 0.127)
+					(end 0.762 -0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "NeoSevenSegment-eagle-import:C-EUC1210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NeoSevenSegment:C1210"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC1210_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NeoSevenSegment-eagle-import:CONN_03LONGPADS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 5.588 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -7.366 0)
+				(effects
+					(font
+						(size 1.778 1.778)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NeoSevenSegment:1X03_LONGPADS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections\n\nOn any of the 0.1 inch spaced packages, you can populate with these:\n\n• https://www.sparkfun.com/products/116  Break Away Headers - Straight (PRT-00116)\n• https://www.sparkfun.com/products/553  Break Away Male Headers - Right Angle (PRT-00553)\n• https://www.sparkfun.com/products/115  Female Headers (PRT-00115)\n• https://www.sparkfun.com/products/117  Break Away Headers - Machine Pin (PRT-00117)\n• https://www.sparkfun.com/products/743  Break Away Female Headers - Swiss Machine Pin (PRT-00743)\n• https://www.sparkfun.com/products/13875  Stackable Header - 3 Pin (Female, 0.1\") (PRT-13875)\n\nFor SCREWTERMINALS and SPRING TERMINALS visit here:\n\n• https://www.sparkfun.com/search/results?term=Screw+Terminals  Screw Terimnals on SparkFun.com (5mm/3.5mm/2.54mm spacing)\n\nThis device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.\n\n• https://www.sparkfun.com/products/11375  Hook-Up Wire - Assortment (Stranded, 22 AWG) (PRT-11375)\n• https://www.sparkfun.com/products/11367  Hook-Up Wire - Assortment (Solid Core, 22 AWG) (PRT-11367)\n• https://www.sparkfun.com/categories/141  View the entire wire category on our website here\n\nSpecial notes:\n\nMolex polarized connector foot print use with SKU : PRT-08232 with associated crimp pins and housings."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CONN_03LONGPADS_1_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NeoSevenSegment-eagle-import:R-US_R1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NeoSevenSegment:R1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_R1206_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Mechanical:MountingHole_M3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_M3"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3.2mm Diameter Mounting Hole (M3)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_M3_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.7961)
+					(stroke
+						(width 2)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WS2812B_5050N_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "WS2812B_5050N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS2812B_5050N_1_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -5.08) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 10.16) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -5.08 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.064) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy -7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 10.16) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 10.16) (xy 5.08 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "WS2812B"
+					(at -4.064 8.382 0)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at 5.08 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "DI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 97.79 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01a3911d-7166-4911-b9e0-d3a51b3a4eb4")
+	)
+	(junction
+		(at 125.73 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0347d65b-fca4-4628-a857-759c2573f2de")
+	)
+	(junction
+		(at 92.71 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03faeaeb-0264-4330-a7ba-7d24b892f4ea")
+	)
+	(junction
+		(at 50.8 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04be6e3e-4a6d-4255-b743-93899662c48d")
+	)
+	(junction
+		(at 102.87 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06e46221-a152-46ac-a24c-b5a550e4c3b9")
+	)
+	(junction
+		(at 83.82 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab0d659-af38-43ac-930f-78e959a0edd7")
+	)
+	(junction
+		(at 69.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13c856ee-b659-4017-ab4e-368ac2bda428")
+	)
+	(junction
+		(at 153.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e1dd7d-b396-44b6-bb8c-ec4094aaf96b")
+	)
+	(junction
+		(at 153.67 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18972c30-e4a7-4187-9ddf-a972e8911122")
+	)
+	(junction
+		(at 125.73 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d38a5ea-3bdc-41d6-8342-5a197a57af86")
+	)
+	(junction
+		(at 187.96 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d6fbe89-cea4-445d-9258-39a137fa317e")
+	)
+	(junction
+		(at 69.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ff01ca2-df4c-4d07-a275-7f83d192baa3")
+	)
+	(junction
+		(at 74.93 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24e9ef91-3339-42f5-9559-f572a9d2048a")
+	)
+	(junction
+		(at 92.71 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2541738e-a7ef-4987-9b47-bc416bc2fc57")
+	)
+	(junction
+		(at 97.79 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "260d4d45-a9bc-47f3-887a-1f174789ef44")
+	)
+	(junction
+		(at 45.72 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27963b1c-d9fb-4ef2-83c0-43d16ef00f4c")
+	)
+	(junction
+		(at 102.87 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d06d81a-6f31-4c2e-96a3-6ce182efb829")
+	)
+	(junction
+		(at 102.87 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f842df-4121-4781-96e8-d0f3695360f3")
+	)
+	(junction
+		(at 67.31 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d12d9b-0bd8-4911-af9b-2c49af808c1f")
+	)
+	(junction
+		(at 74.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc5aaa5-4aac-47e1-9274-93df1b1e48fc")
+	)
+	(junction
+		(at 97.79 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e537174-d2b5-4f7e-b570-16728f065668")
+	)
+	(junction
+		(at 58.42 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d70924-56d1-4952-851a-04a8f40f20b7")
+	)
+	(junction
+		(at 97.79 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42862d82-0041-47d6-8e32-1fe88836fbaa")
+	)
+	(junction
+		(at 69.85 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "516d5b06-3ae6-40c2-8324-f563c71efbd2")
+	)
+	(junction
+		(at 76.2 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525f9f44-7261-489b-9628-4b34eb7a39fe")
+	)
+	(junction
+		(at 74.93 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57a4a38c-0c8f-4729-a05f-21b07eb57aaf")
+	)
+	(junction
+		(at 158.75 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c51de98-fa08-4e2f-ba68-45ec23b731d7")
+	)
+	(junction
+		(at 158.75 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c840547-7348-42d0-9e29-2ffa109e09eb")
+	)
+	(junction
+		(at 158.75 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "631f170d-5026-449e-b5d9-63dc2fb010a4")
+	)
+	(junction
+		(at 182.88 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64a3f3ce-4b82-411c-9d15-1bd9ce921cb8")
+	)
+	(junction
+		(at 130.81 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64aedb13-ca84-4949-8778-2aaafdf35d74")
+	)
+	(junction
+		(at 125.73 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a50b0e8-d592-4951-af2a-63e257c3700f")
+	)
+	(junction
+		(at 153.67 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b9e99e3-4fa2-44bf-b591-c947cb1f7596")
+	)
+	(junction
+		(at 130.81 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba0ba7a-c975-453e-bc1c-730b5052e61b")
+	)
+	(junction
+		(at 130.81 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da0264f-2ac9-4783-aba9-f268030935bb")
+	)
+	(junction
+		(at 58.42 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e5fdbb5-4588-4871-821d-f4b007da0345")
+	)
+	(junction
+		(at 158.75 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bcc343a-fbd9-4837-b055-cf0672c3b078")
+	)
+	(junction
+		(at 83.82 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95fb652d-d980-477b-bc28-388abb7f5d85")
+	)
+	(junction
+		(at 125.73 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d765603-4dd2-49b7-b125-14a0087a0b6b")
+	)
+	(junction
+		(at 130.81 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9855dd4-0e65-470f-8618-425c5d0b15cf")
+	)
+	(junction
+		(at 228.6 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af165d3a-87f3-4e98-bef5-0488267b80d0")
+	)
+	(junction
+		(at 74.93 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2adbbfc-6317-453c-9bb4-2e4ea9c5482b")
+	)
+	(junction
+		(at 153.67 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c52750f4-9798-4254-9ef7-28f807205378")
+	)
+	(junction
+		(at 102.87 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1021b92-c7cf-4910-9f7c-48a7b4a8caa2")
+	)
+	(junction
+		(at 76.2 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d143e54e-604f-468e-be94-54d1487bdb84")
+	)
+	(junction
+		(at 69.85 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d33eae3d-effa-4887-b910-84a13ead6896")
+	)
+	(junction
+		(at 97.79 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4caea8b-fdd1-4541-a70e-e7cfd9faaaf2")
+	)
+	(junction
+		(at 125.73 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80df5cb-ba74-4058-b0c8-ef39e4011230")
+	)
+	(junction
+		(at 153.67 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0730d04-a0fc-4ad5-b9b9-14d1e3d3efe4")
+	)
+	(junction
+		(at 50.8 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e07bae15-4a1e-4c2c-b459-9d923bd7bb4c")
+	)
+	(junction
+		(at 67.31 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e30a91c9-26e7-4da7-b63b-ddc13e30fc94")
+	)
+	(junction
+		(at 69.85 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37d1e3c-67d9-4250-8546-617fb0346b5d")
+	)
+	(junction
+		(at 228.6 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9bb31da-86fd-4c32-a1dc-b29d9bc33a63")
+	)
+	(junction
+		(at 102.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2fe82df-2f2c-4f63-9d69-c86df90374f1")
+	)
+	(junction
+		(at 158.75 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb05b940-6131-4d07-b609-42f3728fdb73")
+	)
+	(junction
+		(at 74.93 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc15b335-b813-4327-8332-c49dab19cf50")
+	)
+	(junction
+		(at 130.81 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc30f244-ecae-4577-8662-1747d851e624")
+	)
+	(wire
+		(pts
+			(xy 69.85 181.61) (xy 69.85 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "00287b06-307a-44bf-a04b-75551abec391")
+	)
+	(wire
+		(pts
+			(xy 125.73 181.61) (xy 153.67 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "032e3faf-c6d2-4acc-9142-c6a42a53dbb6")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "07f269a3-2e16-436f-bb1a-6228808b97d0")
+	)
+	(wire
+		(pts
+			(xy 223.52 172.72) (xy 223.52 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b1aa4b4-0836-45a2-b4b8-271e364469fc")
+	)
+	(wire
+		(pts
+			(xy 223.52 172.72) (xy 231.14 172.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0b7ea836-a871-4b6f-b936-9cd923c2f7aa")
+	)
+	(wire
+		(pts
+			(xy 125.73 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0c064085-0090-46cc-aa93-27478477cd46")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 97.79 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ceebb5e-d354-43e4-a28b-815056730530")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 130.81 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0da0431a-579a-4ff7-aed4-f28bf5f1002b")
+	)
+	(wire
+		(pts
+			(xy 46.99 171.45) (xy 57.15 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0e0335a6-41ba-4386-9cb4-586e9bd2956a")
+	)
+	(wire
+		(pts
+			(xy 50.8 190.5) (xy 58.42 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e1993cb-6d41-46b2-a237-94b760f33b6b")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1168bfe2-6aa1-4327-bbdc-dda7cd4e1b80")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11ffe392-924a-4598-9c9c-eee391a184f2")
+	)
+	(wire
+		(pts
+			(xy 29.21 26.67) (xy 33.02 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12815f11-a900-499c-99d7-3eeef83a5edd")
+	)
+	(wire
+		(pts
+			(xy 46.99 100.33) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "13346dd9-4dd2-421d-8107-c307e0cf6a13")
+	)
+	(wire
+		(pts
+			(xy 102.87 118.11) (xy 130.81 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1499a38b-d85e-4c68-a870-3bee9fbbb2b4")
+	)
+	(wire
+		(pts
+			(xy 76.2 190.5) (xy 83.82 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14eb5bc0-0a1e-4b69-8436-734ead054858")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 69.85 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "167bd1c1-278e-4140-b84d-43934662eccd")
+	)
+	(wire
+		(pts
+			(xy 210.82 170.18) (xy 210.82 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "17ac5461-ae1f-4b7b-8d3b-6993b08279d5")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1928238e-0de6-4f9b-ac7d-6c5b67b1c1cf")
+	)
+	(wire
+		(pts
+			(xy 97.79 181.61) (xy 125.73 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ab54c74-f903-49ff-8d47-73f79282cc7d")
+	)
+	(wire
+		(pts
+			(xy 83.82 190.5) (xy 92.71 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d72aaa3-4221-4d4c-aea7-17450f8b85af")
+	)
+	(wire
+		(pts
+			(xy 180.34 107.95) (xy 180.34 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223a2bb8-3c7a-47ba-8866-77d0c431936a")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22adb98e-1b18-4a54-819a-059342423e66")
+	)
+	(wire
+		(pts
+			(xy 58.42 190.5) (xy 67.31 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22dc57ff-9f32-438d-ac7c-096539fe9967")
+	)
+	(wire
+		(pts
+			(xy 29.21 24.13) (xy 39.37 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2348b39a-1b4c-4096-906b-a569abfe2043")
+	)
+	(wire
+		(pts
+			(xy 180.34 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2662fe42-527c-4851-bbcc-e51d89dd1897")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 74.93 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27748318-4c18-4eaa-891e-781ae0db23ae")
+	)
+	(wire
+		(pts
+			(xy 166.37 171.45) (xy 170.18 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cc97d2-f620-4c47-a831-cdc5c3f71e3c")
+	)
+	(wire
+		(pts
+			(xy 193.04 31.75) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2818e375-6015-45a9-ae49-aac5cab3bde0")
+	)
+	(wire
+		(pts
+			(xy 102.87 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2acb265a-dbc7-4195-b1c5-41a36acd4023")
+	)
+	(wire
+		(pts
+			(xy 46.99 64.77) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d783122-e247-4430-bc0b-53268a6343a0")
+	)
+	(wire
+		(pts
+			(xy 182.88 181.61) (xy 182.88 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30dfa707-f6a4-46da-a588-cd1e01098e2e")
+	)
+	(wire
+		(pts
+			(xy 54.61 31.75) (xy 57.15 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3275c0fe-f48a-4044-8e7b-0a6bca6a0c45")
+	)
+	(wire
+		(pts
+			(xy 74.93 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "335543f9-83c8-4046-8c11-0b4ad7840570")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3482a7df-0ebe-4aac-9a3b-6cfbbf0c15b6")
+	)
+	(wire
+		(pts
+			(xy 138.43 64.77) (xy 140.97 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34da03bb-b843-4aac-baf4-4ce9519f9192")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.99) (xy 185.42 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34eef2ef-d518-4877-aaa3-cd04304de555")
+	)
+	(wire
+		(pts
+			(xy 67.31 190.5) (xy 76.2 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37999d21-2c3a-48be-9ad3-5f5edda9d0f6")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 85.09 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3878d5c8-28b7-4c80-965f-1cdd05719ef5")
+	)
+	(wire
+		(pts
+			(xy 57.15 21.59) (xy 57.15 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "38ef95bb-452b-49eb-bb4e-017cd8317962")
+	)
+	(wire
+		(pts
+			(xy 167.64 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39079db9-e255-4210-bb15-eb8d57a39a85")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "39160d8d-cc07-4020-a4cc-b8dba3ba70b4")
+	)
+	(wire
+		(pts
+			(xy 102.87 13.97) (xy 130.81 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40bab399-1ee9-4aa8-b473-1cb6e30b71e8")
+	)
+	(wire
+		(pts
+			(xy 158.75 118.11) (xy 185.42 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4487346e-d24e-4ba6-b1e1-4644b3438c4d")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 97.79 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d611e83-909f-4c3d-bfb7-894f568094c7")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4f36f88c-a03c-4803-8856-3b91d13c5ffc")
+	)
+	(wire
+		(pts
+			(xy 83.82 198.12) (xy 92.71 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5046e0be-1635-4783-9d63-53919f197a95")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "52cf13ff-95f3-48e4-b83a-4d59a8defacb")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "53ad6a58-5afc-4c1a-85d2-8f4d509d1c28")
+	)
+	(wire
+		(pts
+			(xy 110.49 64.77) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5437894b-e85c-4f7b-8f75-9306604ae141")
+	)
+	(wire
+		(pts
+			(xy 82.55 31.75) (xy 85.09 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "543a03c7-1138-4b96-aaf1-40fca2b9a735")
+	)
+	(wire
+		(pts
+			(xy 74.93 153.67) (xy 102.87 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "57202fb8-b2d5-4f8a-8bbb-0e18c3d77732")
+	)
+	(wire
+		(pts
+			(xy 92.71 190.5) (xy 104.14 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e84bf9-f76c-4852-9506-3eff4f9af872")
+	)
+	(wire
+		(pts
+			(xy 125.73 74.93) (xy 125.73 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58383f0a-bd05-4d08-ae33-fdbff8bee494")
+	)
+	(wire
+		(pts
+			(xy 74.93 46.99) (xy 102.87 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5994988c-c05c-4693-b1b2-bae517c17706")
+	)
+	(wire
+		(pts
+			(xy 125.73 146.05) (xy 125.73 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "59cde5ba-404e-4832-a01c-c5d0d92b8d77")
+	)
+	(wire
+		(pts
+			(xy 57.15 13.97) (xy 74.93 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5bc63bc7-cb8c-4ae8-bf97-27f22b25a88f")
+	)
+	(wire
+		(pts
+			(xy 33.02 26.67) (xy 33.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67425fa9-8583-487b-aee6-996908842bc9")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 125.73 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "688c7939-2fec-4668-aa41-9827c19c5be3")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "68d2102c-11e9-4898-8b49-d5ca7388dc06")
+	)
+	(wire
+		(pts
+			(xy 215.9 167.64) (xy 231.14 167.64)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6901563c-2d14-4b8a-a2c8-9f24eb5b9884")
+	)
+	(wire
+		(pts
+			(xy 138.43 100.33) (xy 140.97 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "696bf0ac-4cd2-40c4-98b0-8bd17a7e0726")
+	)
+	(wire
+		(pts
+			(xy 138.43 171.45) (xy 140.97 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6aa1d5d8-163b-4f33-b567-3377d311dbab")
+	)
+	(wire
+		(pts
+			(xy 227.33 58.42) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bcbe47a-08c3-4dba-a075-87d1889f731f")
+	)
+	(wire
+		(pts
+			(xy 50.8 198.12) (xy 58.42 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ced974d-4267-4129-95c1-614648acdb3a")
+	)
+	(wire
+		(pts
+			(xy 180.34 110.49) (xy 179.07 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7127fa-92da-4766-a77c-e34e460c5f1a")
+	)
+	(wire
+		(pts
+			(xy 46.99 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e5893a8-c79d-42fc-8390-6e9b07b51ade")
+	)
+	(wire
+		(pts
+			(xy 31.75 198.12) (xy 50.8 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eec38d4-fa95-48de-bed4-27823e1d3871")
+	)
+	(wire
+		(pts
+			(xy 130.81 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6eeef37f-6ba7-4e5b-9321-0d537dd89236")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 57.15 21.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f44d75a-43c6-4a16-8277-3fb8e32d5d0a")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "718b4389-2584-45b5-90df-21da9532e074")
+	)
+	(wire
+		(pts
+			(xy 97.79 41.91) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72d68c9b-987e-4f76-b9e3-b78bac5ae2e6")
+	)
+	(wire
+		(pts
+			(xy 69.85 110.49) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "734c868e-9903-4a95-941f-21f27f4cf80f")
+	)
+	(wire
+		(pts
+			(xy 67.31 198.12) (xy 76.2 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a834ce-830d-4815-8631-e2ff9b6236a1")
+	)
+	(wire
+		(pts
+			(xy 97.79 41.91) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76a1ece0-6a41-4358-bfbb-40b34f53c4e4")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b95c2ad-6382-48dd-a8fb-e53a29ba9f7c")
+	)
+	(wire
+		(pts
+			(xy 31.75 190.5) (xy 50.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e863b6a-0b26-4ff0-9102-08eb1b1e2384")
+	)
+	(wire
+		(pts
+			(xy 102.87 153.67) (xy 130.81 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7fda5a8b-977b-4846-b74b-08d873a88103")
+	)
+	(wire
+		(pts
+			(xy 180.34 39.37) (xy 180.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d5de68-e5e2-4d55-958e-3449bd26f2aa")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827de5b1-26e4-4846-8e0d-dbc7498192da")
+	)
+	(wire
+		(pts
+			(xy 223.52 181.61) (xy 182.88 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "82db878c-d9ea-431c-8f6a-173ef681330e")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 140.97 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "83825c97-d319-4a3f-8664-045096b1c1e0")
+	)
+	(wire
+		(pts
+			(xy 167.64 64.77) (xy 166.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a17743-9c09-405b-ac04-a1703f8eedc5")
+	)
+	(wire
+		(pts
+			(xy 46.99 146.05) (xy 69.85 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "85e6fda0-291f-43a7-9426-3bf650c3ed7e")
+	)
+	(wire
+		(pts
+			(xy 69.85 181.61) (xy 97.79 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8a997b25-6e49-4a32-8c4a-e8b5577647a6")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 113.03 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9134a44b-1dc0-4751-a211-069b16c0caa3")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 125.73 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "91ca050e-db8d-458f-86e1-7dc34e13536d")
+	)
+	(wire
+		(pts
+			(xy 193.04 100.33) (xy 200.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bfb935-52f3-4d5e-a6c8-895c1c51228c")
+	)
+	(wire
+		(pts
+			(xy 58.42 198.12) (xy 67.31 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c93934-0207-4ce2-a082-ad9587276d53")
+	)
+	(wire
+		(pts
+			(xy 193.04 135.89) (xy 207.01 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93a8e0a0-f0ca-4bb8-83ab-b295da80dd04")
+	)
+	(wire
+		(pts
+			(xy 138.43 135.89) (xy 140.97 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9461167d-c0bc-40a8-90a5-9ff0e5019cff")
+	)
+	(wire
+		(pts
+			(xy 69.85 146.05) (xy 97.79 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "94f5a29c-bfdf-4d29-948f-81cfaeeb744f")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95039b0e-238c-4a26-b3ea-c84952ac2255")
+	)
+	(wire
+		(pts
+			(xy 215.9 167.64) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "977dbb31-6a20-424a-b2b3-9d15a08b3e65")
+	)
+	(wire
+		(pts
+			(xy 210.82 171.45) (xy 203.2 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97af5bde-2fbd-43af-9879-0e665ff8eaf1")
+	)
+	(wire
+		(pts
+			(xy 76.2 198.12) (xy 83.82 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9944306e-3ea8-416d-879a-43b13e35a690")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 74.93 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9df576e2-5a2b-40d9-8922-0ca9d14b26dd")
+	)
+	(wire
+		(pts
+			(xy 153.67 181.61) (xy 182.88 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0008a40-b03d-4ec4-9a98-a72ae39d93f6")
+	)
+	(wire
+		(pts
+			(xy 46.99 110.49) (xy 69.85 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a20ddb07-5b69-46f0-86b7-d2a3f28e26b4")
+	)
+	(wire
+		(pts
+			(xy 158.75 13.97) (xy 185.42 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a219cd9e-1ad8-4920-83a7-63ea397de3d4")
+	)
+	(wire
+		(pts
+			(xy 82.55 171.45) (xy 85.09 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a427cb3c-4b6e-46bd-9b5c-07565e258332")
+	)
+	(wire
+		(pts
+			(xy 227.33 55.88) (xy 228.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5614440-dd9a-4c2e-976a-9b641b6b2d7a")
+	)
+	(wire
+		(pts
+			(xy 97.79 146.05) (xy 97.79 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6262eef-92ee-4af9-aa9b-6421454cb46f")
+	)
+	(wire
+		(pts
+			(xy 193.04 64.77) (xy 203.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e9a62d-fbf7-43b7-9473-a7c4e13222a9")
+	)
+	(wire
+		(pts
+			(xy 97.79 181.61) (xy 97.79 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "abfef518-44f7-4904-b7b2-6aed768f937c")
+	)
+	(wire
+		(pts
+			(xy 210.82 170.18) (xy 231.14 170.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ace4fb87-d61f-4e16-9e7e-0a701403027b")
+	)
+	(wire
+		(pts
+			(xy 110.49 135.89) (xy 113.03 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "adeac31f-dc90-449e-a461-7daf0a3a3828")
+	)
+	(wire
+		(pts
+			(xy 125.73 181.61) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af535e06-275b-4a47-b2cd-02061d2aeedb")
+	)
+	(wire
+		(pts
+			(xy 195.58 171.45) (xy 203.2 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10e104b-10aa-4d7d-aa17-f9fe103e7cb8")
+	)
+	(wire
+		(pts
+			(xy 110.49 171.45) (xy 113.03 171.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b318d926-7e77-4bae-9276-5553e2aa9f43")
+	)
+	(wire
+		(pts
+			(xy 38.1 21.59) (xy 45.72 21.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b33a3bb0-bfb7-4aa6-bd89-49ec8a97ee0b")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b3be3274-dfaa-4f49-8c33-8792dd53e8d8")
+	)
+	(wire
+		(pts
+			(xy 46.99 181.61) (xy 69.85 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b54c3f90-4bd8-4aa1-9524-ebb20c396ace")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 233.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88dc101-0eff-42fa-bb22-e3dc3bd13a23")
+	)
+	(wire
+		(pts
+			(xy 69.85 74.93) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9b49fe3-811a-4d74-8835-f5eff22df177")
+	)
+	(wire
+		(pts
+			(xy 97.79 146.05) (xy 125.73 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9b8163e-a614-4812-8f0c-70c05a0e73a0")
+	)
+	(wire
+		(pts
+			(xy 153.67 181.61) (xy 153.67 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc948a01-86a1-4fa9-969d-85730da7c473")
+	)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 44.45 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bf59e5d4-2052-44ae-9c5d-64d39ceb1b6a")
+	)
+	(wire
+		(pts
+			(xy 29.21 21.59) (xy 38.1 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf6596ee-3bd2-4ddd-a420-308b14db074e")
+	)
+	(wire
+		(pts
+			(xy 153.67 110.49) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c3f73390-165d-473f-bcb9-20ef6f2d3f37")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4acad1b-a9d2-4241-badd-422d16a0e9d5")
+	)
+	(wire
+		(pts
+			(xy 158.75 153.67) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c62e2774-9d33-4450-95a2-3bd96b1128dc")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c9aaf0da-6f60-4f1f-bc3c-a86d2008f6d7")
+	)
+	(wire
+		(pts
+			(xy 180.34 143.51) (xy 180.34 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca829e12-106e-4a05-af7c-685627b4de88")
+	)
+	(wire
+		(pts
+			(xy 130.81 13.97) (xy 158.75 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb99e4ee-25dd-4052-8f1b-eac59f0c550f")
+	)
+	(wire
+		(pts
+			(xy 82.55 135.89) (xy 85.09 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc89faa7-f25c-4131-905d-3527f7f0c3a3")
+	)
+	(wire
+		(pts
+			(xy 74.93 118.11) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc8a0dc8-7d00-43c2-81c8-6dcb91b5420d")
+	)
+	(wire
+		(pts
+			(xy 167.64 31.75) (xy 166.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffb33f7-c06d-4355-a08c-ba3441acc975")
+	)
+	(wire
+		(pts
+			(xy 69.85 146.05) (xy 69.85 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0973135-bc81-4393-9246-5178e7b6f934")
+	)
+	(wire
+		(pts
+			(xy 125.73 41.91) (xy 153.67 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0a8f709-428b-4367-9def-7488b50f1c75")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d146cab2-e1ac-47da-b4af-38d50bcdcb14")
+	)
+	(wire
+		(pts
+			(xy 33.02 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d15a8169-ff01-403b-93f0-e64d9ac91153")
+	)
+	(wire
+		(pts
+			(xy 46.99 153.67) (xy 74.93 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7615dc3-51b9-47be-99d8-ed5ae751b9a8")
+	)
+	(wire
+		(pts
+			(xy 110.49 31.75) (xy 113.03 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db489259-cb17-4eb8-94b9-680e9afa236a")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 185.42 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de2e255a-4912-4977-a77e-09b5c2a393c6")
+	)
+	(wire
+		(pts
+			(xy 125.73 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e3671450-19bc-45f9-a604-771db3a28a2e")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e798eaf1-b170-402a-a25c-c490e9e9a455")
+	)
+	(wire
+		(pts
+			(xy 228.6 55.88) (xy 228.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1c3354-9d56-484e-9711-fe122d00b562")
+	)
+	(wire
+		(pts
+			(xy 74.93 13.97) (xy 102.87 13.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb9fc74c-4c2e-4e0c-8a81-cf4ae7787992")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 97.79 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f01b72c2-fa9b-42f9-b88d-a746c8dfbe77")
+	)
+	(wire
+		(pts
+			(xy 92.71 198.12) (xy 104.14 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6189936-564d-47be-acf4-6c970d9c3512")
+	)
+	(wire
+		(pts
+			(xy 39.37 24.13) (xy 39.37 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f6cf0adf-b837-4e6a-9243-08e06a7af4f2")
+	)
+	(wire
+		(pts
+			(xy 187.96 153.67) (xy 215.9 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8d588d1-0e69-445b-8c20-c9f9eaf5a59c")
+	)
+	(wire
+		(pts
+			(xy 130.81 46.99) (xy 158.75 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fea96480-22f6-46ce-b7ba-c6d85ed0d225")
+	)
+	(label "DATA3"
+		(at 207.01 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "05aff8fc-e6f9-4a30-9da4-fbcae8329e4d")
+	)
+	(label "DATA1"
+		(at 46.99 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a305df0-b052-4499-ab9f-02d55cb70382")
+	)
+	(label "GND"
+		(at 179.07 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b229cdf-3dd4-440b-9bf3-c1c8fb3637ef")
+	)
+	(label "DATA"
+		(at 46.99 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "16fab1d0-99c6-4d7e-9aae-01f8e62a8ef1")
+	)
+	(label "GND"
+		(at 176.53 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "2019998a-28fc-4355-9376-d2ef3e80669b")
+	)
+	(label "VDD"
+		(at 46.99 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "28dff7f3-6ad0-4e22-8ede-485db5007fc9")
+	)
+	(label "DATA"
+		(at 196.85 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "316d86c3-ca30-4666-95a4-57ccc0677c7c")
+	)
+	(label "DATA4"
+		(at 203.2 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c91410b-4517-410e-8d22-1fc749338ce5")
+	)
+	(label "GND"
+		(at 180.34 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "48ba52e5-7fef-4c95-8296-986998b4c45c")
+	)
+	(label "GND"
+		(at 46.99 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bbcb6b1-ae9d-46be-9f3d-232148d9996a")
+	)
+	(label "GND"
+		(at 46.99 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "55367b41-9129-41ec-8e36-f689fd213d9b")
+	)
+	(label "DATA2"
+		(at 200.66 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5848254e-78b5-4893-9ab4-8621d56292b1")
+	)
+	(label "VDD"
+		(at 179.07 13.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "657af768-fdfa-4848-8b24-8aeff89a2d8a")
+	)
+	(label "GND"
+		(at 46.99 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "72808f2b-fdcc-4d52-b208-954778071cb3")
+	)
+	(label "GND"
+		(at 31.75 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "899dc9a2-5e6c-48c0-b9ab-016cec135bc4")
+	)
+	(label "VDD"
+		(at 179.07 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a25c298-5e4b-4a78-bef7-e9aa9ed2e882")
+	)
+	(label "VDD"
+		(at 179.07 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "94f723af-5f7b-4495-bee8-e0f32a8b42f7")
+	)
+	(label "GND"
+		(at 180.34 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad0da218-5f67-49f2-b52e-5984ef15a2b7")
+	)
+	(label "DATA2"
+		(at 46.99 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b00f4526-95a5-464c-9650-68d0a831d9a7")
+	)
+	(label "VDD"
+		(at 46.99 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "be399ca3-6777-403f-ae11-8adc5d636928")
+	)
+	(label "GND"
+		(at 228.6 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9345351-f5bd-46cc-bbe6-c917987a65b3")
+	)
+	(label "VDD"
+		(at 179.07 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca04add6-da00-4434-8766-8a558a0fb210")
+	)
+	(label "DATA1"
+		(at 195.58 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1411a2-b237-4280-bff9-4384b4899f8a")
+	)
+	(label "VDD"
+		(at 179.07 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca26be0c-2869-4178-ab5d-831b25f595fa")
+	)
+	(label "VDD"
+		(at 46.99 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d027667d-495f-49dd-87c1-4295bc91d2db")
+	)
+	(label "VDD"
+		(at 31.75 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9341edf-96c1-4896-9f6c-09a875864f6f")
+	)
+	(label "GND"
+		(at 46.99 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd5e9e02-ce9e-4053-8ca7-7b21473d8641")
+	)
+	(label "DATA3"
+		(at 46.99 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfd15b28-4666-4f72-bdf9-7c8d0873ed76")
+	)
+	(label "VDD"
+		(at 46.99 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "e838a25a-132a-4a24-8661-43b45a773cfa")
+	)
+	(label "GND"
+		(at 179.07 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f279683e-ec4f-44b5-9e89-c64663149546")
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 67.31 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02ab335c-9dfe-4467-aad7-33fb707781df")
+		(property "Reference" "C3"
+			(at 68.834 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 68.834 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 67.31 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b04e302b-7ac1-4de3-b173-ebfe370b9d5a")
+		)
+		(pin "2"
+			(uuid "6e9dddbc-f46d-489b-b3a8-e24324d0ae9d")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 180.34 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02db4f6a-cff9-4a9b-992e-371123cce1ff")
+		(property "Reference" "LED5"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" ""
+			(at 180.34 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ebe51458-651b-4eed-a60f-0ae919be8277")
+		)
+		(pin "1"
+			(uuid "f9f1f963-5f0e-4df7-9f91-bde0f68b3727")
+		)
+		(pin "4"
+			(uuid "81ba46ba-1c25-4bfc-9d4e-59c144850929")
+		)
+		(pin "2"
+			(uuid "43a7473e-3317-42b9-bbc4-7da43b48c8f0")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 69.85 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "086f63c5-399c-43c3-b1d5-803ada4266a7")
+		(property "Reference" "LED11"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bb572aa7-85a7-4475-adec-b11db6e3fe5c")
+		)
+		(pin "1"
+			(uuid "e43aa4f1-20da-4d8d-a45e-4a18ba9a3170")
+		)
+		(pin "4"
+			(uuid "8e8003e2-8443-4bfc-8232-360e8a712214")
+		)
+		(pin "2"
+			(uuid "9dc0f406-d5b0-4e1d-9b81-197155da5c61")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 180.34 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0db32d43-adda-4897-bc37-ac61bf569da2")
+		(property "Reference" "LED20"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "acd12827-5bb1-4afa-aff3-0dc559263060")
+		)
+		(pin "1"
+			(uuid "34f5d5b0-292e-4b13-8f73-b70024c0b915")
+		)
+		(pin "4"
+			(uuid "70c6520d-5893-40a4-89f4-8a8593d21596")
+		)
+		(pin "2"
+			(uuid "185013da-e7aa-491a-99c8-1178510ca974")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 92.71 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0de31abf-b423-48bf-9f12-3e6737d37838")
+		(property "Reference" "C6"
+			(at 94.234 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 94.234 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 92.71 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b8b4cc3-a999-442d-a898-4546e684f7fd")
+		)
+		(pin "2"
+			(uuid "98edf298-4205-4e6f-b894-ca69f1710dc4")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 125.73 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0edd60d5-8b00-4f26-aed6-a6959a31db18")
+		(property "Reference" "LED23"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "60a9010b-6687-4f5f-a1b4-cdaf92d3452d")
+		)
+		(pin "1"
+			(uuid "0ac0c0cc-ca85-4f68-9516-7262f5d9403e")
+		)
+		(pin "4"
+			(uuid "218900e8-4571-47ea-b071-202943392785")
+		)
+		(pin "2"
+			(uuid "b94330e7-4027-47e6-9db3-d6ffe44c4e7c")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 153.67 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f30cdc1-cef7-418c-adc0-879b312af28c")
+		(property "Reference" "LED14"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4e73a87d-edd0-4871-a026-545dca063716")
+		)
+		(pin "1"
+			(uuid "4f102313-e114-42b1-956e-3913cada8e2a")
+		)
+		(pin "4"
+			(uuid "92b01d96-dbfd-4160-869a-af48d6afd497")
+		)
+		(pin "2"
+			(uuid "bc63e5ae-2195-414a-b29d-4a56e24622c0")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 69.85 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10451456-88c8-4cdf-b3e4-8ca99b6d0b94")
+		(property "Reference" "LED6"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c355d151-b134-4e03-bd1c-d0eaf2080341")
+		)
+		(pin "1"
+			(uuid "b1930d50-86c1-4a3d-9f48-5e4e68400a6f")
+		)
+		(pin "4"
+			(uuid "e4051fba-af05-4584-8d3f-555b54352b04")
+		)
+		(pin "2"
+			(uuid "ad42f94e-9923-4d2e-b190-b01770b62dde")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 153.67 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a3f7f7-d920-4dfd-9e1b-f4de63ec0b65")
+		(property "Reference" "LED9"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "67660e81-2bab-4d51-a87f-340a7b15e6e7")
+		)
+		(pin "1"
+			(uuid "951b92e4-53f1-41ab-90c1-a953232593c0")
+		)
+		(pin "4"
+			(uuid "a6c857dc-b706-4a5b-8917-6e5004fe37db")
+		)
+		(pin "2"
+			(uuid "f20eaeef-cdac-4eb8-ac7b-643392094331")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 237.49 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "184547df-f99b-4c4c-87ec-8c05ad4beab9")
+		(property "Reference" "J3"
+			(at 240.03 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 240.03 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 238.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b727735-b786-4565-a22b-dedc1d108635")
+		)
+		(pin "2"
+			(uuid "364d53eb-8ff3-43f3-9361-eebebf399b4a")
+		)
+		(instances
+			(project ""
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 69.85 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23aaefc9-2823-42bd-9b7e-8bf28d36d986")
+		(property "Reference" "LED1"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e765ed0b-8968-449e-a410-be948f77232f")
+		)
+		(pin "1"
+			(uuid "752d59f7-e535-4f34-a60c-bf281509a62b")
+		)
+		(pin "4"
+			(uuid "b169fe40-c905-4e94-a552-d11d2e4b2ac3")
+		)
+		(pin "2"
+			(uuid "4c6fcbb1-92e9-4bb1-803b-a4b79aee3ed9")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 69.85 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "267285ea-91e9-443e-9868-80d756244bf5")
+		(property "Reference" "LED21"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "96fe8daf-9e8c-4f73-8551-0cd61d0e3a68")
+		)
+		(pin "1"
+			(uuid "00522e6c-8764-4c65-810b-4a70629057a7")
+		)
+		(pin "4"
+			(uuid "9f874498-7930-4f9d-9b17-47ac0c928fdb")
+		)
+		(pin "2"
+			(uuid "811e0e9a-53f1-4552-a6ea-e8b7138a9921")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 97.79 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d9a49a8-d4e0-4a5c-8619-55edb115736c")
+		(property "Reference" "LED7"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "324d9c42-6649-48b4-a6b9-569edb50e876")
+		)
+		(pin "1"
+			(uuid "2a79488d-e026-4a57-80c3-c74453842286")
+		)
+		(pin "4"
+			(uuid "46ee5946-6da1-49db-99dd-929690b1f2e3")
+		)
+		(pin "2"
+			(uuid "821e193a-d16a-419f-a6cb-5054e43cbb44")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 153.67 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31548701-f3e6-45fc-999d-a9ae3674f1c2")
+		(property "Reference" "LED4"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" ""
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "090a434a-d8ea-48c8-b916-191e674c70ef")
+		)
+		(pin "1"
+			(uuid "e07d4120-29bb-4799-b539-b1aa4e49c50e")
+		)
+		(pin "4"
+			(uuid "f833f0ab-16b3-4079-8990-e0815aa03bc6")
+		)
+		(pin "2"
+			(uuid "afab15f9-0de5-4cf8-a877-22a66cfbfab0")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:CONN_03LONGPADS")
+		(at 21.59 24.13 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "31612e7b-aea3-4b54-a6df-ddb8e420559c")
+		(property "Reference" "J1"
+			(at 19.05 29.718 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "IN"
+			(at 19.05 16.764 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_SL_Connectors:PinHeader_1x03_P2.54mm_Vertical"
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c32e776e-f7bd-4292-b876-0e6cbe492c68")
+		)
+		(pin "1"
+			(uuid "b227132c-d1fd-45b3-b731-dc0609eec951")
+		)
+		(pin "3"
+			(uuid "5661ff6b-df2b-440a-ac9b-626161140d67")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 153.67 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e43d74c-9aa3-457b-aa6c-3e9228979cb3")
+		(property "Reference" "LED19"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "77747f7f-3f66-4f29-a960-96cc319c8fe4")
+		)
+		(pin "1"
+			(uuid "720091cc-0100-490a-9a79-0abf1de6e2d7")
+		)
+		(pin "4"
+			(uuid "0f4c7e28-9c11-40d1-8c5b-5a0bb4a9de5f")
+		)
+		(pin "2"
+			(uuid "d4748ab0-8c2e-43ee-9680-8cfe82b8dcb2")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 69.85 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4201c22c-b2ce-4bdc-849c-4755f30896bc")
+		(property "Reference" "LED16"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4f11e320-2aa8-4512-84c8-d51054819427")
+		)
+		(pin "1"
+			(uuid "2703fc17-0be9-4ab5-b527-3ef4bbe4b1d8")
+		)
+		(pin "4"
+			(uuid "c652854a-bad0-4108-b797-8557e9e795c1")
+		)
+		(pin "2"
+			(uuid "ab65a098-7aa8-455c-9ace-d442d7704788")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
+		(at 115.57 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a4fe3ca-02eb-40c7-a60a-ef6ae4e7af72")
+		(property "Reference" "H1"
+			(at 119.38 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 119.38 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 115.57 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
+			(at 115.57 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 97.79 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a83770e-302a-4d62-880a-4eaef9a82e13")
+		(property "Reference" "LED17"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8ec147f2-98e9-4d9f-897c-6cfdb77c6927")
+		)
+		(pin "1"
+			(uuid "c4f8155e-67a2-4b20-b0fb-cc9071b5dde7")
+		)
+		(pin "4"
+			(uuid "f0a0b8e1-8c1b-469a-8df5-f114e873373c")
+		)
+		(pin "2"
+			(uuid "5aa45b79-2dd5-44fd-adb9-81a3da54c5f2")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 97.79 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54a3728d-8d6c-42ac-945d-7bc8c0d93bcf")
+		(property "Reference" "LED2"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" ""
+			(at 97.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7d053564-4879-4ad1-9083-c1a7bc09c764")
+		)
+		(pin "1"
+			(uuid "6a9164b2-fa48-4a90-972a-156ed8a7a628")
+		)
+		(pin "4"
+			(uuid "38960b76-c269-4005-8fc8-b9ac2fb7aa0c")
+		)
+		(pin "2"
+			(uuid "f0cb9267-da16-4323-88cb-8e3035720057")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Mechanical:MountingHole_M3")
+		(at 128.27 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "571e138e-6bed-4f65-957a-5579c9333a05")
+		(property "Reference" "H2"
+			(at 132.08 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_M3"
+			(at 132.08 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 128.27 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.2mm Diameter Mounting Hole (M3)"
+			(at 128.27 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 97.79 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61a29002-fc22-4e67-8380-f0fb056ecd65")
+		(property "Reference" "LED12"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5f5e231a-5b21-49d1-9d4c-74cb0cdc21ab")
+		)
+		(pin "1"
+			(uuid "85244dde-5f83-427c-9e45-7c858e7410dd")
+		)
+		(pin "4"
+			(uuid "e86f37a5-9bb3-4bfc-92ea-3437131e950c")
+		)
+		(pin "2"
+			(uuid "d230820b-45b2-4eb3-9277-cb83bdb66a14")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 125.73 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "725e98ae-370c-4e01-8e28-7d9f9e22569f")
+		(property "Reference" "LED18"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8e93d8ce-9708-4254-8e40-4f5d681aecb4")
+		)
+		(pin "1"
+			(uuid "45270601-ad9d-41a3-b1ea-d269c1fb6168")
+		)
+		(pin "4"
+			(uuid "62cca436-699e-4e4a-9c61-864f2515b9db")
+		)
+		(pin "2"
+			(uuid "bbbc3bbe-a3a8-41cb-8139-a2a581dabdcf")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 153.67 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d33246-7ad5-4a0f-9a52-d174b4b56c97")
+		(property "Reference" "LED24"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a93f9fda-bf59-4a39-8bf5-a2c99becc084")
+		)
+		(pin "1"
+			(uuid "19eb9465-6c56-4804-bf0c-c8f6a49df8de")
+		)
+		(pin "4"
+			(uuid "9cdb2bcd-9adf-4f02-950d-94eafdcd16c3")
+		)
+		(pin "2"
+			(uuid "e4843984-b13e-48da-919d-71ca86d990f5")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 58.42 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "809002eb-e6b8-4544-9dd2-210858f7dabf")
+		(property "Reference" "C2"
+			(at 59.944 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 59.944 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 58.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 58.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c0ca59e-ccdc-40cb-9c33-b3053ef23bad")
+		)
+		(pin "2"
+			(uuid "91d32eb8-9f34-4771-98d9-9787558473ba")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:SYM_Hot_Small")
+		(at 234.95 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81a9cb5a-5a20-4839-b294-0ddc6f8e2143")
+		(property "Reference" "#SYM1"
+			(at 234.95 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYM_Hot_Small"
+			(at 234.95 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 235.712 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hot surface warning symbol, small"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 182.88 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9035fd79-5d03-4292-b042-4a2ca9197ce2")
+		(property "Reference" "LED25"
+			(at 182.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 182.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 182.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "81d6d4b0-aa2d-41ce-ba50-984d073be661")
+		)
+		(pin "1"
+			(uuid "3895863f-7356-439e-b6db-95c2fd42039d")
+		)
+		(pin "4"
+			(uuid "e170ba8d-57ea-4be8-9f71-f4fe121ef20f")
+		)
+		(pin "2"
+			(uuid "af97f572-c59c-4707-8402-b7647e299620")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 228.6 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99a716ed-0694-420f-9462-cf7c8cd2fdef")
+		(property "Reference" "TP1"
+			(at 231.14 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 217.932 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 228.6 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c42c1067-2f07-49a8-81dc-83ecf7ad10dc")
+		)
+		(instances
+			(project ""
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 125.73 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f32bc76-db02-4202-a96d-11c4df7b3105")
+		(property "Reference" "LED13"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e1bf6886-7b33-4218-8296-5fd0f3d30a74")
+		)
+		(pin "1"
+			(uuid "1529697a-c539-4e3d-9465-e1fcf1678bcf")
+		)
+		(pin "4"
+			(uuid "368d5f8b-9f68-4779-9f2d-366d294a5989")
+		)
+		(pin "2"
+			(uuid "ec1b9a08-d7de-470f-89df-03163317780c")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:CONN_03LONGPADS")
+		(at 238.76 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc64e8cc-50a7-46ba-a12d-14ab41e13193")
+		(property "Reference" "J2"
+			(at 241.3 175.768 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OUT"
+			(at 241.3 162.814 0)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "PCM_SL_Connectors:PinHeader_1x03_P2.54mm_Vertical"
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ae7844-165e-4dee-bd12-172070f9bb60")
+		)
+		(pin "2"
+			(uuid "0805733c-e83c-4fac-9c45-937b099ccb9b")
+		)
+		(pin "3"
+			(uuid "d0040976-7c26-4a09-be64-6430fbbf81ab")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 125.73 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2249e62-379f-4587-bbb6-e7101492ddfb")
+		(property "Reference" "LED3"
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" ""
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1d4c65ae-34ff-42e1-9b9d-ed895f711ffd")
+		)
+		(pin "1"
+			(uuid "ccb3793d-71f2-474d-91e8-6abd9a847a31")
+		)
+		(pin "4"
+			(uuid "d97239d8-0369-4796-bb9d-d9dfe680ac4c")
+		)
+		(pin "2"
+			(uuid "6d6daebf-4113-462a-919d-b920019cf257")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c31e6204-bc78-46a0-a645-e94e835bd081")
+		(property "Reference" "TP2"
+			(at 48.26 17.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 48.26 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.5x2.5mm"
+			(at 50.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b2f4a18-9a4f-46de-951e-9154e8f1e63d")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 97.79 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7fe05b3-98b1-4e83-9d8a-41779c5a9e0c")
+		(property "Reference" "LED22"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4fb68b27-90fc-4804-9196-a4a6e3a89db0")
+		)
+		(pin "1"
+			(uuid "1ea25ec4-53be-466d-844d-17e47e841ebd")
+		)
+		(pin "4"
+			(uuid "5e2b215d-a016-4212-83be-285a6f1b412f")
+		)
+		(pin "2"
+			(uuid "d4e5bd39-c30e-4569-8d08-9847e13d205a")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 180.34 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9643c4d-0ab2-40cc-919c-ac5e105c597d")
+		(property "Reference" "LED15"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "30a3247c-d05c-4f5f-9109-5ab4863f8741")
+		)
+		(pin "1"
+			(uuid "6de101da-091d-4bd1-b73f-be503ad00470")
+		)
+		(pin "4"
+			(uuid "a134e670-3334-4767-9168-f72d4a924812")
+		)
+		(pin "2"
+			(uuid "8f30b53e-fb7a-49dc-bbe8-43e20ab797c0")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:R-US_R1206")
+		(at 49.53 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc879fd3-605f-4c17-bfd9-fea68d62c508")
+		(property "Reference" "R1"
+			(at 45.72 30.2514 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "220"
+			(at 45.72 35.052 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "RMCF1206FT220RCT-ND"
+			(at 49.53 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d00b570-9da0-491b-8db3-53e9422624a5")
+		)
+		(pin "2"
+			(uuid "678ada49-b7a9-4b01-b9ab-7cd7f3000eca")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 180.34 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6bc641d-6e36-47c3-af73-9eddd62c9486")
+		(property "Reference" "LED10"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0410665-bfac-4d14-a2e9-f3ffa98f860b")
+		)
+		(pin "1"
+			(uuid "7364523b-8b71-4a18-8c20-20ed2b120b34")
+		)
+		(pin "4"
+			(uuid "39827d15-29f0-41d3-ab51-0bd442d6be47")
+		)
+		(pin "2"
+			(uuid "194bdb68-e5a2-41f3-a9ba-7944f7eff925")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 76.2 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6ef2c93-9d44-41fa-a462-fcd0b6a3d6f2")
+		(property "Reference" "C4"
+			(at 77.724 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 77.724 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 76.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 76.2 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93ef1465-6926-485f-b16d-9a84616fee97")
+		)
+		(pin "2"
+			(uuid "02a52aa6-e14f-494d-8a9b-2e84c047eec7")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 223.52 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d804efb4-d6ef-4cbc-af7b-48dc19ca4ae3")
+		(property "Reference" "J4"
+			(at 223.52 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 213.868 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 222.25 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 223.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0860fecb-4844-4564-9208-71edbfb1bd2f")
+		)
+		(pin "2"
+			(uuid "ae3ec84a-38aa-4662-9f58-65d0ce3a0296")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 83.82 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec43d5a6-4101-4436-93fa-7689c1f1363e")
+		(property "Reference" "C5"
+			(at 85.344 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 85.344 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 83.82 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 83.82 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8027b2b5-c77d-456c-8c5c-10835998f689")
+		)
+		(pin "2"
+			(uuid "e132d292-2771-4aa1-ace8-55a81b7c410a")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NeoSevenSegment-eagle-import:C-EUC1210")
+		(at 50.8 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d27c69-8049-403f-a644-bf93c75ba85c")
+		(property "Reference" "C1"
+			(at 52.324 192.659 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1uF"
+			(at 52.324 197.739 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 50.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey P/N" "1276-1068-1-ND"
+			(at 50.8 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5939cab2-1687-45ed-9897-f41d2f01bda9")
+		)
+		(pin "2"
+			(uuid "2c603bb4-3275-4bef-bc42-4fec99077823")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "WS2812B_5050N_1")
+		(lib_id "NeoSevenSegment-eagle-import:WS2812B_5050N")
+		(at 125.73 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f85ea250-cb02-491d-8750-9c8b200bb7d6")
+		(property "Reference" "LED8"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "WS2812B_5050N"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95181cfd-a252-4313-8828-a5e7665d16df")
+		)
+		(pin "1"
+			(uuid "2142aae2-e6ee-4d15-8423-a736bd448fed")
+		)
+		(pin "4"
+			(uuid "dd6f1438-a19b-4d9c-87f4-d300a156e80f")
+		)
+		(pin "2"
+			(uuid "d52cc51f-fa30-4567-8f49-7ae0570f9205")
+		)
+		(instances
+			(project "Neo7SegmentMini"
+				(path "/3e6dd7b0-ca71-4721-8088-8e6ce70ebe88"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
